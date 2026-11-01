@@ -1,8 +1,8 @@
 {
   "version": 2,
   "framework": null,
-  "buildCommand": null,
-  "outputDirectory": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.7.3"
@@ -10,12 +10,11 @@
   },
   "routes": [
     {
-      "src": "/(build|images|image|sertifikat|favicon\\.ico|robots\\.txt)(.*)",
-      "dest": "/public/$1$2"
+      "src": "/index\\.php",
+      "dest": "/api/index.php"
     },
     {
-      "src": "/livewire/(.*)",
-      "dest": "/api/index.php"
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
