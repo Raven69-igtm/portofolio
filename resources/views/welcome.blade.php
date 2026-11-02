@@ -1,6 +1,5 @@
 <x-layout>
-    <x-slot:title>Abiyyuza — Fullstack Artisan & Imperial Developer</x-slot:title>
-
+    <x-slot:title>Abiyyuza</x-slot:title>
     <!-- ========================================================================= -->
     <!-- 1. SECTION: OVERVIEW (HERO WITH FULL-SCREEN ETHEREAL BACKGROUND ART) -->
     <!-- ========================================================================= -->

@@ -59,7 +59,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $title ?? 'Abiyyuza — Fullstack Artisan & Imperial Developer' }}</title>
+    <title>{{ $title ?? 'Abiyyuza' }}</title>
     
     <!-- Inline script to eliminate theme flash -->
     <script>
@@ -340,7 +340,6 @@
                         ABIYYUZA
                     </span>
                     <span class="font-sans text-[9px] tracking-[0.3em] font-semibold text-stone-500 dark:text-stone-400 uppercase -mt-0.5">
-                        IMPERIAL DEV
                     </span>
                 </div>
             </a>
